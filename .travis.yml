@@ -7,4 +7,4 @@ env:
     
 after_success:
   - mvn clean deploy --settings ~/.m2/mySettings.xml
-  - mvn deploy --settings travis-settings.xml -DskipTests=true -B
+  - mvn deploy --settings travis-settings.xml -DskipTests=false -B
