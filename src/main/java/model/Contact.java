@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Created by Администратор on 26.02.2016.
+ * Created by on 26.02.2016.
  */
 public class Contact {
 
