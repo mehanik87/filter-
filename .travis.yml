@@ -1,10 +1,3 @@
 language: java
-env:
-  global:
-    - SONATYPE_USERNAME=yourusername
-    - secure: "your encrypted SONATYPE_PASSWORD=pass"
-    
-after_success:
-  - mvn clean deploy --settings ~/.m2/mySettings.xml
   - mvn test
-  - mvn deploy --settings travis-settings.xml -DskipTests=false -B
+ 
