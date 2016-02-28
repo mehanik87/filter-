@@ -1,5 +1,5 @@
 language: java
-
+mvn test
 env:
   global:
     - SONATYPE_USERNAME=yourusername
