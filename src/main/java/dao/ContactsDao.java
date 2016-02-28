@@ -13,7 +13,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Администратор on 26.02.2016.
+ * Created by on 26.02.2016.
  */
 public class ContactsDao {
 
